@@ -1,0 +1,61 @@
+{
+    "code": "200",
+    "data": [
+        {
+            "tabId": 9,
+            "tabName": "推荐",
+            "tabType": 3,
+            "defaultShow": false,
+            "linkUrl": null,
+            "linkType": null
+        },
+        {
+            "tabId": 10,
+            "tabName": "收纳秘诀",
+            "tabType": 2,
+            "defaultShow": false,
+            "linkUrl": "https://m.you.163.com/topic/v1/pub/OTtgutDnWz.html",
+            "linkType": 0
+        },
+        {
+            "tabId": 12,
+            "tabName": "20元好物",
+            "tabType": 2,
+            "defaultShow": false,
+            "linkUrl": "https://m.you.163.com/topic/v1/pub/mUQqAv6AWX.html",
+            "linkType": 0
+        },
+        {
+            "tabId": 7,
+            "tabName": "晒单",
+            "tabType": 2,
+            "defaultShow": false,
+            "linkUrl": "https://m.you.163.com/topic/static/look/index",
+            "linkType": 1
+        },
+        {
+            "tabId": 4,
+            "tabName": "达人",
+            "tabType": 0,
+            "defaultShow": false,
+            "linkUrl": null,
+            "linkType": null
+        },
+        {
+            "tabId": 13,
+            "tabName": "上新",
+            "tabType": 0,
+            "defaultShow": false,
+            "linkUrl": null,
+            "linkType": null
+        },
+        {
+            "tabId": 6,
+            "tabName": "HOME",
+            "tabType": 0,
+            "defaultShow": false,
+            "linkUrl": null,
+            "linkType": null
+        }
+    ]
+}

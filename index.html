@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>vue_yanxuan_bo</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <title>网易严选</title>
+  <link rel="stylesheet" href="./static/css/reset.css">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_1075571_yx4m6j6h8bi.css">
+  <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+  <script>
+    //解决pc端事件在移动端0.3秒的延迟 的方法
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function () {
+        FastClick.attach(document.body);
+      }, false);
+    }
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+    //rem适配  页面中的元素单位都为rem
+    // (function () {
+    //   let styleNode = document.createElement('style')
+    //   let width = document.documentElement.clientWidth
+    //   // console.log(width)
+    //   styleNode.innerHTML = 'html{font-size:' + width / 10 + ' px!important}'
+    //   document.head.appendChild(styleNode)
+    // })()
+    //点透处理 ？？？？？？？======》》暂定
+
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
 </html>
